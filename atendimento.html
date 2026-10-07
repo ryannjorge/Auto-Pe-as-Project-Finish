@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento - Auto Peças Turbo</title>
+    <link rel="stylesheet" href="atendimento.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+
+        <div class="cabecalho-container">
+
+                <!-- A logo precisa estar dentro da pasta imagens -->
+                <img src="img/logo2.jpg">
+
+                <h1>
+                    Auto Peças <span>Turbo</span>
+                </h1>
+
+            </a>
+
+            <nav class="menu">
+                
+                <a href="index.html">Inicio</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Apresentação -->
+        <section class="banner-atendimento">
+
+            <div class="banner-conteudo">
+
+                <p class="subtitulo">FALE CONOSCO</p>
+
+                <h2>Atendimento ao cliente</h2>
+
+                <p>
+                    Nossa equipe está disponível para ajudar você a
+                    encontrar a peça certa para seu veículo.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Informações e formulário -->
+        <section class="area-atendimento">
+
+            <div class="atendimento-container">
+
+                <!-- Informações de contato -->
+                <div class="informacoes-contato">
+
+                    <p class="subtitulo">PRECISA DE AJUDA?</p>
+
+                    <h2>Entre em contato</h2>
+
+                    <p class="texto-introducao">
+                        Fale com nossa equipe para tirar dúvidas sobre
+                        produtos, compatibilidade, preços e pedidos.
+                    </p>
+
+                    <div class="contato-item">
+                        <div class="contato-numero">01</div>
+
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+
+                    <div class="contato-item">
+                        <div class="contato-numero">02</div>
+
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+
+                    <div class="contato-item">
+                        <div class="contato-numero">03</div>
+
+                        <div>
+                            <h3>E-mail</h3>
+                            <p>contato@autopecasturbo.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contato-item">
+                        <div class="contato-numero">04</div>
+
+                        <div>
+                            <h3>Horário de atendimento</h3>
+                            <p>Segunda a sexta, das 8h às 18h</p>
+                            <p>Sábado, das 8h às 14h</p>
+                        </div>
+                    </div>
+
+                    <div class="loja-online">
+                        <span class="status-online"></span>
+
+                        <p>Loja online disponível 24 horas</p>
+                    </div>
+
+                </div>
+
+                <!-- Formulário -->
+                <div class="formulario-container">
+
+                    <h2>Envie sua mensagem</h2>
+
+                    <p>
+                        Preencha os campos abaixo. Nossa equipe entrará
+                        em contato assim que possível.
+                    </p>
+
+                    <form class="form-contato">
+
+                        <div class="campo">
+                            <label for="nome">Nome completo</label>
+
+                            <input
+                                type="text"
+                                id="nome"
+                                name="nome"
+                                placeholder="Digite seu nome"
+                                required
+                            >
+                        </div>
+
+                        <div class="campos-lado-a-lado">
+
+                            <div class="campo">
+                                <label for="email">E-mail</label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="seuemail@exemplo.com"
+                                    required
+                                >
+                            </div>
+
+                            <div class="campo">
+                                <label for="telefone">Telefone</label>
+
+                                <input
+                                    type="tel"
+                                    id="telefone"
+                                    name="telefone"
+                                    placeholder="(11) 99999-9999"
+                                >
+                            </div>
+
+                        </div>
+
+                        <div class="campo">
+                            <label for="assunto">Assunto</label>
+
+                            <select id="assunto" name="assunto" required>
+                                <option value="">
+                                    Selecione uma opção
+                                </option>
+
+                                <option value="produto">
+                                    Dúvida sobre produto
+                                </option>
+
+                                <option value="compatibilidade">
+                                    Compatibilidade da peça
+                                </option>
+
+                                <option value="pedido">
+                                    Acompanhar pedido
+                                </option>
+
+                                <option value="troca">
+                                    Troca ou devolução
+                                </option>
+
+                                <option value="outro">
+                                    Outro assunto
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="campo">
+                            <label for="veiculo">
+                                Modelo e ano do veículo
+                            </label>
+
+                            <input
+                                type="text"
+                                id="veiculo"
+                                name="veiculo"
+                                placeholder="Exemplo: Chevrolet Onix 2022"
+                            >
+                        </div>
+
+                        <div class="campo">
+                            <label for="mensagem">Mensagem</label>
+
+                            <textarea
+                                id="mensagem"
+                                name="mensagem"
+                                rows="6"
+                                placeholder="Escreva sua dúvida ou solicitação"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <label class="caixa-confirmacao">
+
+                            <input
+                                type="checkbox"
+                                name="confirmacao"
+                                required
+                            >
+
+                            <span>
+                                Confirmo que os dados informados estão corretos.
+                            </span>
+
+                        </label>
+
+                        <button type="submit" class="btn-enviar">
+                            Enviar mensagem
+                        </button>
+
+                    </form>
+
+                    <p class="aviso-formulario">
+                        Este formulário é apenas visual. Para receber as
+                        mensagens, será necessário conectá-lo a um sistema
+                        de envio.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Botão para voltar -->
+        <section class="continuar-comprando">
+    <h2>Quer continuar procurando peças?</h2>
+    <p>Volte para nossa loja e confira os produtos disponíveis.</p>
+    <a href="index.html">Voltar para a loja</a>
+</section>
+
+    </main>
+<footer class="rodape" id="contato">
+
+    <div class="rodape-container">
+
+        <div class="rodape-coluna rodape-marca">
+            <h2>Auto Peças <span>Turbo</span></h2>
+
+            <p>
+                Peças automotivas de qualidade, atendimento rápido
+                e segurança para o seu veículo.
+            </p>
+        </div>
+
+        <div class="rodape-coluna">
+            <h3>Menu</h3>
+
+            <a href="index.html">Inicio</a>
+            <a href="index.html">Produtos</a>
+            <a href="index.html">Sobre Nós</a>
+            <a href="atendimento.html">Atendimento</a>
+        </div>
+
+        <div class="rodape-coluna">
+            <h3>Atendimento</h3>
+
+            <p>
+                <strong>Telefone:</strong><br>
+                (11) 99999-9999
+            </p>
+
+            <p>
+                <strong>E-mail:</strong><br>
+                contato@autopecasturbo.com
+            </p>
+
+            <p>
+                <strong>Horário:</strong><br>
+                Segunda a sábado, das 8h às 18h
+            </p>
+        </div>
+
+        <div class="rodape-coluna">
+            <h3>Onde estamos</h3>
+
+            <p>
+                Av. dos Autonomistas<br>
+                Osasco - SP
+            </p>
+
+            <div class="rodape-status">
+                <span></span>
+                Loja online disponível
+            </div>
+        </div>
+
+    </div>
+
+    <div class="rodape-final">
+        <p>
+            &copy; 2026 Auto Peças Turbo. Todos os direitos reservados.
+        </p>
+
+        #topoVoltar ao topo</a>
+    </div>
+
+</footer>
+
+    
+    
+</body>
+
+</html>
+</body>
+</html>

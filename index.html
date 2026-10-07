@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Auto Peças Turbo - A sua oficina 24 horas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytles.css">
+
+    <title>Auto Peças Turbo
+    </title>
+    <link rel="icon" href="img/logo2 (1).png">
+</head>
+<body>
+
+    <!-- Cabeçalho Fixo -->
+<div id="topo"></div>
+
+<!-- Cabeçalho Principal -->
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <!-- Link apontando para #topo -->
+            <a href="#topo">
+                <img src="img/logo2 (1).png" alt="Auto Peças Turbo">
+            </a>
+        </div>
+
+        <form class="busca-box">
+            <input type="text" placeholder="Pesquisar peças...">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</header>
+
+<!-- Menu de Navegação -->
+<nav class="menu">
+    <div class="menu-container">
+        <!-- Adicionamos a # em todos os links para rolagem suave -->
+        <a href="#topo">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#contato">Contato</a>
+    </div>
+</nav>
+<!-- Banner -->
+<section class="banner">
+
+<div class="banner-conteudo">
+<p class="banner-destaque">OFERTAS ESPECIAIS</p>
+
+<h2>As melhores peças para o seu veículo</h2>
+
+<p>
+Segurança, qualidade e preço justo para cuidar do seu carro.
+</p>
+
+<p class="descricao-loja">
+A Auto Peças Turbo oferece peças automotivas de alta qualidade,
+preços competitivos e atendimento especializado para ajudar você
+a encontrar exatamente o que seu veículo precisa.
+</p>
+
+
+</a>
+</div>
+
+<div class="banner-imagem">
+<img src="img/mecanico.jpg" alt="Imagem de Mecânico Trabalhando">
+</div>
+
+</section>
+
+    <!-- Filtro por veículo -->
+    <section class="filtro-veiculo">
+        <div class="filtro-container">
+
+            <h3>Encontre peças compatíveis com seu veículo</h3>
+
+            <form class="select-group">
+
+                <select aria-label="Selecione a marca">
+                    <option value="">Selecione a marca</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="ford">Ford</option>
+                    <option value="honda">Honda</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="volkswagen">Volkswagen</option>
+                </select>
+
+                <select aria-label="Selecione o modelo">
+                    <option value="">Selecione o modelo</option>
+                    <option value="celta">Celta</option>
+                    <option value="civic">Civic</option>
+                    <option value="corolla">Corolla</option>
+                    <option value="gol">Gol</option>
+                    <option value="onix">Onix</option>
+                    <option value="palio">Palio</option>
+                </select>
+
+                <select aria-label="Selecione o ano">
+                    <option value="">Selecione o ano</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+
+                <button type="submit" class="btn-filtrar">
+                    Buscar peças
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- Categorias -->
+       <section class="categorias">
+    <h2>Categorias</h2>
+
+    <div class="categorias-grid">
+
+        <div class="categoria-item">
+            <img src="img/freios.jpeg" alt="Imagem de disco de freio">
+            <div class="numero">01</div>
+            <h3>Freios</h3>
+            <p class="descricao">
+                Pastihas, Discos e Fluídos para diversos veículos 
+            </p>
+        </div>
+
+        <div class="categoria-item">
+            <img src="img/motor.jpeg" alt="Imagem de Motor de carro">
+            <div class="numero">02</div>
+            <h3>Motor</h3>
+            <p class="descricao">
+                Óleos, filtros, correias e peças para manutenção do motor
+            </p>
+        </div>
+
+     <div class="categoria-item">
+        <img src="img/eletrica.jpg" alt="Imagem consertando a parte elétrica do carro">
+        <div class="numero">03</div>
+        <h3>Elétrica</h3>
+        <p class="descricao">
+        Baterias, Fusíveis, Lâmpadas e alternadores
+        </p>
+    </div>
+
+<div class="categoria-item">
+<img src="img/amortecedor.jpeg" alt="Imagem de Amortecedor de Carro">
+<div class="numero">04</div>
+<h3>Suspensão</h3>
+    <p class="descricao">
+        Amortecedores, Molas e kits completos de suspensão
+    </p>
+</div>
+    </div>
+</section>
+
+
+      <!-- Produtos -->
+<section class="produtos" id="produtos">
+
+    <h2 class="titulo-secao">Produtos em destaque</h2>
+
+    <div class="produtos-grid">
+
+        <!-- Produto 1 -->
+        <article class="card-produto">
+
+            <div class="desconto">10% OFF</div>
+
+            <img src="img/freios.jpeg">
+
+            <div class="info-produto">
+
+                <span class="sku">Código: PF-001</span>
+
+                <h3 class="nome-produto">Par De Discos De Freio Dianteiro Fremax Sorento E Santa Fé</h3>
+
+                <span class="compatibilidade">
+                    Compatível com Chevrolet Onix
+                </span>
+
+                <p class="preco-antigo">R$ 300,00</p>
+                <p class="preco">R$ 249,90</p>
+                <p class="parcelamento">ou 3x de R$ 83,33</p>
+
+                <a href="comprar.html" class="btn-comprar">
+Comprar agora
+</a>
+
+            </div>
+
+        </article>
+
+        <!-- Produto 2 -->
+        <article class="card-produto">
+
+            <div class="desconto">10% OFF</div>
+
+            <img src="img/disco.jpeg" width="200px">
+
+            <div class="info-produto">
+
+                <span class="sku">Código: OM-002</span>
+
+                <h3 class="nome-produto">
+                    Pastilha Freio Disco Grand Livina Tiida 1.6 1.8 2009 2010
+
+                </h3>
+
+                <span class="compatibilidade">
+                    Compatível com vários veículos
+                </span>
+
+                <p class="preco-antigo">R$ 54,90</p>
+                <p class="preco">R$ 44,90</p>
+                <p class="parcelamento">ou 2x de R$ 22,45</p>
+
+                <a href="comprar2.html" class="btn-comprar">
+Comprar agora
+</a>
+
+            </div>
+
+        </article>
+
+        <!-- Produto 3 -->
+        <article class="card-produto">
+
+            <div class="desconto">15% OFF</div>
+
+            <img src="img/bateria.jpeg">
+
+            <div class="info-produto">
+
+                <span class="sku">Código: BA-003</span>
+
+                <h3 class="nome-produto">
+                    Bateria Moura M60Gd Inteligente Positivo Direita
+                </h3>
+
+                <span class="compatibilidade">
+                    Compatível com diversos modelos
+                </span>
+
+                <p class="preco-antigo">R$ 449,90</p>
+                <p class="preco">R$ 319,90</p>
+                <p class="parcelamento">ou 10x de R$ 106,66</p>
+
+                <a href="comprar3.html" class="btn-comprar">
+Comprar agora
+</a>
+
+            </div>
+
+        </article>
+
+        <!-- Produto 4 -->
+        <article class="card-produto">
+
+            <div class="desconto">14% OFF</div>
+
+            <img src="img/amortecedor.jpeg">
+
+            <div class="info-produto">
+
+                <span class="sku">Código: AM-004</span>
+
+                <h3 class="nome-produto">Kit + Par Amortecedor Dianteiro Corsa/classic 1995/2012</h3>
+
+                <span class="compatibilidade">
+                    Compatível com Corsa
+                </span>
+
+                <p class="preco-antigo">R$ 289,90</p>
+                <p class="preco">R$ 249,90</p>
+                <p class="parcelamento">ou 8x de R$ 31,24</p>
+
+                <a href="comprar4.html" class="btn-comprar">
+Comprar agora
+</a>
+
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+        <!-- Sobre nós -->
+        <section class="sobre" id="sobre">
+            <div class="sobre-conteudo">
+
+                <div>
+
+                    <p class="subtitulo-sobre">
+                      QUEM SOMOS
+                    </p>
+                    <h2>Auto Peças Turbo</h2>
+
+                    <p>
+                        Trabalhamos com peças e acessórios automotivos de
+                        qualidade para oferecer segurança, economia e
+                        confiança aos nossos clientes.
+                    </p>
+
+                    <p>
+                        Nossa missão é facilitar a compra de autopeças,
+                        ajudando você a encontrar produtos compatíveis
+                        com seu veículo.
+                    </p>
+                </div>
+
+                <div class="vantagens">
+                    <div>
+                        <strong>Compra segura</strong>
+                        <p>Proteção para seus dados.</p>
+                    </div>
+
+                    <div>
+                        <strong>Entrega rápida</strong>
+                        <p>Envio para todo o Brasil.</p>
+                    </div>
+
+                    <div>
+                        <strong>Peças de qualidade</strong>
+                        <p>Produtos selecionados.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    
+    <section class="localizacao" id="localizacao">
+
+<div class="localizacao-container">
+
+    <div class="localizacao-texto">
+
+        <p class="subtitulo-sobre">ONDE ESTAMOS</p>
+
+        <h2>Visite a Auto Peças Turbo</h2>
+
+        <p>
+            Nossa loja está localizada em Osasco, São Paulo,
+            em uma região de fácil acesso para nossos clientes.
+        </p>
+
+        <p>
+            <strong>Endereço:</strong><br>
+            Av. dos Autonomistas, Osasco - SP
+        </p>
+
+        <p>
+            <strong>Horário:</strong><br>
+            Segunda a sábado, das 8h às 18h
+        </p>
+
+        <a
+            href="https://www.google.com/maps/search/?api=1&query=Osasco+SP"
+            target="_blank"
+            class="btn-localizacao">
+            Ver no Google Maps
+         </a>
+
+    </div>
+
+    <div class="mapa">
+
+       <iframe
+            src="https://www.google.com/maps?q=Osasco%20SP&output=embed"
+            width="100%"
+            height="300">
+        </iframe>
+
+    </div>
+
+</div>
+
+<section class="atendimento">
+    <div class="atendimento-container">
+
+
+        <div>
+            <h2>Precisa de ajuda?</h2>
+            <p>
+                Nossa equipe está disponível para ajudar você
+                a encontrar a peça certa para o seu veículo.
+            </p>
+        </div>
+
+        <a href="atendimento.html" class="btn-atendimento">
+            Falar com atendimento
+        </a>
+
+
+           
+
+<div class="estatisticas">
+<div>
+<h3>+5.000</h3>
+<p>Peças disponíveis</p>
+</div>
+
+    <div>
+        <h3>+1.000</h3>
+     <p>Clientes atendidos</p>
+    </div>
+
+    <div>
+        <h3>24h</h3>
+        <p>Loja online</p>
+    </div>
+</div>
+
+</div>
+
+    </div>
+
+</section>
+
+<footer class="rodape">
+    <h3>Auto Peças Turbo</h3>
+
+    <p>Peças automotivas, acessórios e manutenção para diversas marcas e modelos.</p>
+
+    <p>📍 Osasco - SP</p>
+
+    <p class="copyright">
+        © 2026 Auto Peças Turbo
+    </p>
+</footer>
+
+
+
+    
+</body>
+</html>
